@@ -76,7 +76,6 @@ between releases.
 | `Makefile`, `BUILDVIDKIT.ps1` | The same build for Linux/macOS and Windows PowerShell |
 | `VIDKIT-A000.BIN`, `VIDKIT.Z` | The built library, and its LZSA-compressed copy (see "Build") |
 | `DOCUMENTS/` | Quick start, API and memory map, jump table, the SPV specification and its addenda (Markdown and PDF) |
-| `MEDIA SAMPLES/` | A sample WAV to play (see `ASSETS-CREDITS.md`) |
 | `EXAMPLE VIDKIT CODE/` | Example players and a BASIC loader (see "Examples") |
 
 ## Documentation
@@ -115,6 +114,13 @@ message if any part is larger than its slot.
 **Tools needed:** Java and a Prog8 compiler jar, 64tass, cc65 (`cl65`), GNU
 `make`, and `lzsa`. The shipped binaries were built with Prog8 12.x; a different
 Prog8 version can change the generated code.
+
+## Sample media
+
+The sample media are attached to the
+[v2.0 release](https://github.com/ahenry3068/VIDKIT/releases/tag/v2.0), not kept in
+the repository (they are too large): a Chopin nocturne as a WAV. Their origins and
+licenses are in `ASSETS-CREDITS.md`.
 
 ## Examples
 

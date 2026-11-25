@@ -17,8 +17,8 @@ P8JARPATH
 BUILDVIDKIT
 BUILDVIDKIT.exe
 
-# not published: the editable originals of the PDFs, scratch copies, and media over GitHub's 100 MB limit
+# not published: the editable originals of the PDFs, scratch copies, and the sample media (they go on the release)
 *.odt
 * (copy).*
 HANDOFF-*.md
-MEDIA SAMPLES/PELICANS.SPV
+MEDIA SAMPLES/
