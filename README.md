@@ -77,6 +77,7 @@ between releases.
 | `VIDKIT-A000.BIN`, `VIDKIT.Z` | The built library, and its LZSA-compressed copy (see "Build") |
 | `DOCUMENTS/` | Quick start, API and memory map, jump table, the SPV specification and its addenda (Markdown and PDF) |
 | `EXAMPLE VIDKIT CODE/` | Example players and a BASIC loader (see "Examples") |
+| `CHECKFRAG.p8` | SD-card fragmentation checker, a stand-alone tool (see "Extras") |
 
 ## Documentation
 
@@ -128,6 +129,17 @@ Chopin nocturne as a WAV. Their origins and licenses are in `ASSETS-CREDITS.md`.
   (`PLAYPARTS`, `VIDPLAY-TEMPLATE`, `PLAYLIST`) that the Movie Maker patches to
   build a stand-alone player for one video. See `VIDPLAY.README` there.
 - `BASLOAD CODE/`: BASIC examples, including a VIDKIT plus ZSMKit demo.
+
+## Extras
+
+`CHECKFRAG.p8` is a stand-alone SD-card **fragmentation checker** for the
+Commander X16. It is not part of VIDKIT itself, but it is useful with
+high-bandwidth (SPI direct) SPV videos, which VIDKIT streams straight from the
+card's sectors: give it a file name and it works out the sectors the file should
+occupy, then reports whether the file is contiguous or where it is fragmented.
+It needs ROM R48 or later and the SD card's FAT32 file system (it refuses to run
+on the emulator's HostFS). Build it with Prog8 (`-target cx16`) like the
+examples.
 
 ## Related projects
 
