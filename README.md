@@ -83,9 +83,6 @@ between releases.
 - `DOCUMENTS/QUICKSTART.MD`: the shortest path to playing something.
 - `DOCUMENTS/VIDKIT-API-MEMMAP.md`: the full API, variables and memory map.
 - `DOCUMENTS/JUMPTABLE.MD`: the public jump tables in memory order.
-- `DOCUMENTS/ERRATA-MEMMAP-API.MD`: corrections and additions since the API
-  document was written (moved zero-page variables, `KEY_EXTRA`, the aspect
-  hint).
 
 The PDFs in `DOCUMENTS/` are older copies of the same material, and the
 Markdown is the one kept up to date.
