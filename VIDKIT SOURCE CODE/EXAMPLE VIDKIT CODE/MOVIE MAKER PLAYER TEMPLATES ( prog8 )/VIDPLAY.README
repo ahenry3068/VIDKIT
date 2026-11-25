@@ -1,0 +1,12 @@
+VIDPLAY-TEMPLATE.PRG is used by the X16 Movie Maker
+as the Code template for generating the Mini-Player.
+
+It DOES NOT play anything as compiled.
+
+An SPV filename (with no extension and NUL terminated)
+needs to be edited into the PRG at file offset $2D.
+
+There is room for around 250 characters if necessary !
+
+
+
