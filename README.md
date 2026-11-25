@@ -115,9 +115,9 @@ Prog8 version can change the generated code.
 ## Sample media
 
 The sample media are attached to the
-[v2.0 release](https://github.com/ahenry3068/VIDKIT/releases/tag/v2.0), not kept in
-the repository (they are too large): a Chopin nocturne as a WAV. Their origins and
-licenses are in `ASSETS-CREDITS.md`.
+[VIDKIT 2.0 release](https://github.com/ahenry3068/VIDKIT/releases/tag/VIDKIT2), not
+kept in the repository (they are too large): `PELICANS.SPV`, a pelican video, and a
+Chopin nocturne as a WAV. Their origins and licenses are in `ASSETS-CREDITS.md`.
 
 ## Examples
 
